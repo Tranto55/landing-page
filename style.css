@@ -1,0 +1,223 @@
+@font-face {
+    src: url(Roboto/Roboto-Regular.ttf);
+    font-family: rob ;
+}
+@font-face {
+    src: url(Roboto/Roboto-LightItalic.ttf);
+    font-family: rob2;
+}
+@font-face {
+    src: url(Roboto/Roboto-Bold.ttf);
+    font-family: robthick;
+}
+@font-face {
+    src: url(Roboto/Roboto-Light.ttf);
+    font-family: roblight;
+}
+
+body {
+font-family: rob;
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+
+}
+.mainbox {
+    background-color:black ;
+
+}
+.first-box {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+width: 850px;
+margin: auto;
+}
+
+.second-box {
+  display: flex; 
+  padding: 60px;
+  color: white;
+  gap: 50px;
+  justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #e4e4e4;
+}
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.left-header {
+    display: flex;
+    gap:10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.right-header {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 12px;
+}
+.side-one {
+width: 400px;
+flex-shrink: 0;
+}
+
+.first-button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    font-family: robthick;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.side-two {
+    flex-shrink: 0;
+    width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #c9c9c9;
+color: #1f2937;
+}
+.allboxes {
+    display: flex;
+    text-align: center;
+    gap: 32px;
+    width: 850px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #1f2937;
+}
+.somerandom{
+    text-align: center;
+    margin: 24px;
+    font-family: robthick;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.first {
+    border: 3px solid white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.third { 
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fourth {
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    border: 4px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 16px;
+}
+.thorbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px;
+}
+.one {
+    width: 800px;
+    margin: auto;
+    color: #1f2937;
+    font-size: 36px;
+    font-family: rob2;
+}
+.two {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    margin: auto;
+    font-family: robthick;
+    font-size: 24px;
+    color: #1f2937;
+}
+.bluebox {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 850px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 32px;
+    border-radius: 6px;
+    color: white;
+}
+
+ .right-side {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+ }
+
+
+.second-button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-style: none;
+    width: 150px;
+    height: 50px;
+    font-family: robthick;
+    font-size: 24px;
+    padding: 5px;
+    border: 2px solid white;
+}
+.again {
+    font-size: 20px;
+    font-family: robthick;
+    margin-bottom: 5px;
+}
+.light {
+    font-family: roblight;
+}
+.lastbox {
+    display: flex;
+    justify-content: center;
+    background-color:#1f2937 ;
+    color: white;
+    padding: 16px;
+}
+.alpha {
+    display: flex;
+    fl
+}
